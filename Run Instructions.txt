@@ -1,0 +1,27 @@
+Steps to Run:
+
+1) Adding images
+-------------------------------------------------------
+   - Add all images to a folder
+   - Make sure no other files are present in folder
+   - By default the first image in the folder (alphabetically) will be taken as the primary image
+   - Add this folder to the Matlab path 
+
+
+2) Edit the config file
+--------------------------------------------------------
+   - "/config_files/conf.ini" is the main config file
+   - Enter, folder = <path_of_folder>
+
+
+3) [OPTIONAL] Specify a particular primary image
+--------------------------------------------------------   
+   - To specify a paticular primary image, make db_conf.ini file and assign the primary variable as filename
+   - Look at config_files/db_conf.ini for a sample database 
+
+
+-- Output >
+
+1) Stitched image : Image obtained after stitching all images
+2) Output difference : difference highlighted image
+
